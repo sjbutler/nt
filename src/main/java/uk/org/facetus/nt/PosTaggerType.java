@@ -18,9 +18,13 @@ package uk.org.facetus.nt;
 
 /**
  * Identifies the PoS tagger model to load when creating PoS taggers and 
- * parsers in nt. Note that there is no PoS tagger model for method names
+ * parsers in nt. 
+ * 
+ * <p>
+ * Note that there is no PoS tagger model for method names
  * and that tagging method names using either of the available 
  * models will most likely give very low quality results.
+ * </p>
  */
 public enum PosTaggerType {
     CLASS,

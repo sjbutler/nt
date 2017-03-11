@@ -49,12 +49,12 @@ public class NameTaggerFactory {
     /**
      * Creates a name tagger of the specified type.
      * 
-     * @param tt the type of name tagger required
+     * @param taggerType the type of name tagger required
      * @return a name tagger of the specified type
      */
-    public NameTagger create(PosTaggerType tt) {
+    public NameTagger create(PosTaggerType taggerType) {
         
-        switch (tt) {
+        switch (taggerType) {
             case CLASS:
                 if (classTagger == null ) {
                     classTagger = new ClassNameTagger(

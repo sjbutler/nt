@@ -1,4 +1,4 @@
- package uk.org.facetus.nt;
+package uk.org.facetus.nt;
 
 /**
  * Groups a token and its PoS tag.

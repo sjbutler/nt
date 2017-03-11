@@ -19,7 +19,7 @@ package uk.org.facetus.nt;
 import java.util.List;
 
 /**
- * The basic services to be implemented by all PoS taggers for names.
+ * Basic services to be implemented by PoS taggers for names.
  */
 public interface INameTagger {
     /**
