@@ -136,7 +136,7 @@ public class NameParser implements INameParser {
      * 
      * @param parseTree A Stanford parse Tree
      * 
-     * @return A string containing phrasal tags. NB the string returned will have a trailing space. 
+     * @return A string containing phrasal tags.
      */
     private String treeSummary( Tree parseTree ) {
         StringBuilder phraseTags = new StringBuilder();
@@ -162,7 +162,6 @@ public class NameParser implements INameParser {
     private boolean isClausalTag( String tag ) {
         return CLAUSAL_TAGS.contains( tag );
     }
-    
     
     private class Tree {
         private final List<Tree> children;
