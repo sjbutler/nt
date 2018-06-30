@@ -25,6 +25,8 @@ nt depends on:
 nt comes with a Gradle configuration file. Most IDEs will recognise nt as a
 Gradle project and, at worst, will require a Gradle plugin to be installed.
 
+nt binaries are published to maven central and Gradle users can use the dependency 'uk.org.facetus:nt:0.1.2' to add the library as a dependency.
+
 ## Cite
 nt provides an open source implementation of the class and reference name
 PoS taggers and parsers used in research reported in the following papers:
